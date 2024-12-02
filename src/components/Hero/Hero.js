@@ -32,6 +32,7 @@ const Hero = () => {
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center center",
+            minHeight: "30vh",
           }}
         />
 
