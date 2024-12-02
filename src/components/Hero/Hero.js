@@ -8,10 +8,7 @@ const Hero = () => {
   return (
     <Box
       sx={{
-        height: {
-          xs: "100vh",
-          md: "100vh",
-        },
+        height: "auto",
         display: "flex",
         flexDirection: "column",
       }}
@@ -31,7 +28,7 @@ const Hero = () => {
             backgroundImage: `url(${heroImage})`,
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
-            backgroundPosition: "center center",
+            backgroundPosition: " center",
             minHeight: "30vh",
           }}
         />
