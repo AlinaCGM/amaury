@@ -24,7 +24,7 @@ const About = () => {
         sx={{
           flex: { xs: "1 1 auto", md: "1 1 40%" },
           width: { xs: "auto", md: "auto" },
-          height: { xs: "500px", md: "600px" },
+          height: { xs: "300px", md: "600px" },
           objectFit: "cover",
           borderRadius: "8px",
           boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
@@ -102,7 +102,7 @@ const About = () => {
         sx={{
           flex: { xs: "1 1 auto", md: "1 1 20%" },
           width: { xs: "auto", md: "auto" },
-          height: { xs: "500px", md: "600px" },
+          height: { xs: "300px", md: "600px" },
 
           objectFit: "cover",
           borderRadius: "8px",
