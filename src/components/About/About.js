@@ -9,10 +9,10 @@ const About = () => {
       sx={{
         backgroundColor: "#c2a6a0",
         px: { xs: 2, md: 0 },
-        height: { xs: "auto", md: "90vh" },
+        minHeight: { xs: "70vh", md: "100vh" },
         display: "flex",
         color: "#3b2722",
-        flexDirection: { xs: "column", md: "row" },
+        flexDirection: { xs: "column", lg: "row" },
         gap: { xs: 4, md: 6 },
         alignItems: "stretch",
       }}
@@ -24,7 +24,7 @@ const About = () => {
         sx={{
           flex: { xs: "1 1 auto", md: "1 1 40%" },
           width: { xs: "100%", md: "auto" },
-          height: { xs: "200px", md: "600px" },
+          height: { xs: "600px", md: "600px" },
           objectFit: "cover",
           borderRadius: "8px",
           boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
@@ -101,8 +101,8 @@ const About = () => {
         alt="Amaury Gichon Working"
         sx={{
           flex: { xs: "1 1 auto", md: "1 1 20%" },
-          width: { xs: "100%", md: "auto" },
-          height: { xs: "200px", md: "400px" },
+          width: "auto",
+          height: { xs: "600px", md: "400px" },
           objectFit: "cover",
           borderRadius: "8px",
           boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
