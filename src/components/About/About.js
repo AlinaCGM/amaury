@@ -23,8 +23,9 @@ const About = () => {
         alt="Amaury Gichon Working"
         sx={{
           flex: { xs: "1 1 auto", md: "1 1 40%" },
-          width: { xs: "auto", md: "auto" },
-          height: { xs: "300px", md: "600px" },
+          width: "100%",
+          height: "auto",
+          maxWidth: "600px",
           objectFit: "cover",
           borderRadius: "8px",
           boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
@@ -101,9 +102,9 @@ const About = () => {
         alt="Amaury Gichon Working"
         sx={{
           flex: { xs: "1 1 auto", md: "1 1 20%" },
-          width: { xs: "auto", md: "auto" },
-          height: { xs: "300px", md: "600px" },
-
+          width: "100%",
+          height: "auto",
+          maxWidth: "600px",
           objectFit: "cover",
           borderRadius: "8px",
           boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
