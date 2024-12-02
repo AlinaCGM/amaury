@@ -26,7 +26,7 @@ const Footer = () => {
           left: 0,
           width: "100%",
           height: "100%",
-          backgroundColor: "rgba(0, 0, 0, 0.6)", // Dark overlay
+          backgroundColor: "rgba(0, 0, 0, 0.6)",
           zIndex: 1,
         }}
       />
@@ -35,7 +35,7 @@ const Footer = () => {
       <Box
         sx={{
           position: "relative",
-          zIndex: 2, // Ensure content is above the overlay
+          zIndex: 2,
           px: { xs: 2, md: 4 },
           width: {
             sx: "90%",
@@ -63,7 +63,6 @@ const Footer = () => {
             fontFamily: "'Georgia', serif",
             mb: 4,
             lineHeight: 1.8,
-            color: "rgba(255, 255, 255, 0.9)", // Slightly lighter for contrast
           }}
         >
           Whether you're a passionate home baker or a professional looking to

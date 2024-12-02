@@ -1,8 +1,8 @@
 import React from "react";
 import { Box, Typography, Button, Stack } from "@mui/material";
 import NavBar from "../NavBar/Navbar";
-import heroImage from "../../assets/hero1.png"; // Left image
-import contentBgImage from "../../assets/logo.png"; // Background image for the content part
+import heroImage from "../../assets/hero1.png";
+import contentBgImage from "../../assets/logo.png";
 
 const Hero = () => {
   return (
@@ -41,14 +41,14 @@ const Hero = () => {
             flex: { xs: 1, md: "50%" },
             display: "flex",
             flexDirection: "column",
-            justifyContent: "flex-start", // Keeps NavBar at the top
-            alignItems: "center", // Centers content horizontally
+            justifyContent: "flex-start",
+            alignItems: "center",
             px: { xs: 3, md: 5 },
             pt: { xs: 3, md: 0 },
             pb: { xs: 3, md: 5 },
 
-            backgroundColor: "#EBE0DE", // Background color
-            backgroundImage: `url(${contentBgImage})`, // Background image for content
+            backgroundColor: "#EBE0DE",
+            backgroundImage: `url(${contentBgImage})`,
             backgroundSize: "contain",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
@@ -81,7 +81,7 @@ const Hero = () => {
                 variant="h3"
                 sx={{
                   fontWeight: 700,
-                  fontSize: { xs: "2rem", md: "5.2rem" }, // Matches design
+                  fontSize: { xs: "2rem", md: "5.2rem" },
                   fontFamily: "'Georgia', serif",
                   color: "#5C4033",
                   lineHeight: "1",
@@ -93,7 +93,7 @@ const Hero = () => {
                 variant="h3"
                 sx={{
                   fontWeight: 700,
-                  fontSize: { xs: "2rem", md: "5.2rem" }, // Matches design
+                  fontSize: { xs: "2rem", md: "5.2rem" },
                   fontFamily: "'Georgia', serif",
                   color: "#46302B",
                   lineHeight: "1",
@@ -105,7 +105,7 @@ const Hero = () => {
                 variant="h3"
                 sx={{
                   fontWeight: 700,
-                  fontSize: { xs: "2rem", md: "5.2rem" }, // Matches design
+                  fontSize: { xs: "2rem", md: "5.2rem" },
                   fontFamily: "'Georgia', serif",
                   color: "#46302B",
                   lineHeight: "1",

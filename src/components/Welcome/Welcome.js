@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Typography, Button } from "@mui/material";
-import backgroundImage from "../../assets/master2.jpg"; // Background image
+import backgroundImage from "../../assets/master2.jpg";
 
 const Welcome = () => {
   return (
@@ -10,7 +10,7 @@ const Welcome = () => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        position: "relative", // Needed for overlay
+        position: "relative",
         backgroundImage: `url(${backgroundImage})`,
         backgroundSize: "100%",
         backgroundRepeat: "no-repeat",
@@ -26,15 +26,15 @@ const Welcome = () => {
           left: 0,
           width: "100%",
           height: "100%",
-          backgroundColor: "rgba(0, 0, 0, 0.7)", // Darker overlay
-          zIndex: 1, // Place overlay below content
+          backgroundColor: "rgba(0, 0, 0, 0.7)",
+          zIndex: 1,
         },
       }}
     >
       <Box
         sx={{
-          position: "relative", // Ensures content is above overlay
-          zIndex: 2, // Place content above overlay
+          position: "relative",
+          zIndex: 2,
           padding: { xs: 2, md: 4 },
           borderRadius: "8px",
           maxWidth: "90%",

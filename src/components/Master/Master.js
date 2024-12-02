@@ -10,10 +10,10 @@ const Master = () => {
   return (
     <Box
       sx={{
-        backgroundColor: "#c2a6a0", // Matches the background color in the design
+        backgroundColor: "#c2a6a0",
         px: { xs: 2, md: 6 },
         py: { xs: 4, md: 8 },
-        color: "#3b2722", // Text color matching design
+        color: "#3b2722",
       }}
     >
       {/* Main Heading - Aligned Left */}
@@ -94,12 +94,12 @@ const Master = () => {
             src={image.src}
             alt={image.alt}
             sx={{
-              width: { xs: "45%", md: "18%" }, // Responsive width for different breakpoints
-              height: { xs: "200px", md: "400px" }, // Fixed height for images
+              width: { xs: "45%", md: "18%" },
+              height: { xs: "200px", md: "400px" },
               objectFit: "cover",
               borderRadius: "8px",
               boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
-              mt: image.marginTop, // Adjust vertical alignment for staggering
+              mt: image.marginTop,
             }}
           />
         ))}

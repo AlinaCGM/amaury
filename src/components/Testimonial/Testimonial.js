@@ -12,7 +12,7 @@ const Testimonial = () => {
   return (
     <Box
       sx={{
-        backgroundColor: "none", // Light background color
+        backgroundColor: "none",
         py: 4,
         px: { xs: 2, md: 6 },
       }}
@@ -23,7 +23,7 @@ const Testimonial = () => {
           justifyContent: "space-between",
           alignItems: "center",
           flexWrap: "wrap",
-          gap: 2, // Gap for smaller screens
+          gap: 2,
         }}
       >
         {[t1, t2, t3, t4, t5, t6, t7].map((logo, index) => (
@@ -33,15 +33,15 @@ const Testimonial = () => {
             src={logo}
             alt={`Testimonial ${index + 1}`}
             sx={{
-              width: { xs: "40%", sm: "20%", md: "12%" }, // Responsive widths
-              height: "auto", // Maintain aspect ratio
-              objectFit: "contain", // Ensures logo fits without distortion
-              filter: "grayscale(100%)", // Grayscale for logos
-              opacity: 0.8, // Slightly faded effect
-              transition: "opacity 0.3s ease, filter 0.3s ease", // Smooth hover effect
+              width: { xs: "40%", sm: "20%", md: "12%" },
+              height: "auto",
+              objectFit: "contain",
+              filter: "grayscale(100%)",
+              opacity: 0.8,
+              transition: "opacity 0.3s ease, filter 0.3s ease",
               "&:hover": {
-                filter: "grayscale(0%)", // Remove grayscale on hover
-                opacity: 1, // Fully visible on hover
+                filter: "grayscale(0%)",
+                opacity: 1,
               },
             }}
           />

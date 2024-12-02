@@ -7,47 +7,44 @@ const About = () => {
   return (
     <Box
       sx={{
-        backgroundColor: "#c2a6a0", // Matches the background color in the design
+        backgroundColor: "#c2a6a0",
         px: { xs: 2, md: 0 },
-        height: { xs: "auto", md: "90vh" }, // Auto height for xs
+        height: { xs: "auto", md: "90vh" },
         display: "flex",
         color: "#3b2722",
         flexDirection: { xs: "column", md: "row" },
         gap: { xs: 4, md: 6 },
-        alignItems: "stretch", // Ensures each child respects its own alignment
+        alignItems: "stretch",
       }}
     >
-      {/* Left Section - Large Image */}
       <Box
         component="img"
         src={amaury1}
         alt="Amaury Gichon Working"
         sx={{
           flex: { xs: "1 1 auto", md: "1 1 40%" },
-          width: { xs: "100%", md: "auto" }, // Full width for xs
-          height: { xs: "200px", md: "600px" }, // Reduce height on small screens
+          width: { xs: "100%", md: "auto" },
+          height: { xs: "200px", md: "600px" },
           objectFit: "cover",
           borderRadius: "8px",
           boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
-          alignSelf: { xs: "center", md: "flex-start" }, // Center image on small screens
-          mb: { xs: 2, md: 4 }, // Add margin at the bottom for xs
+          alignSelf: { xs: "center", md: "flex-start" },
+          mb: { xs: 2, md: 4 },
         }}
       />
-
-      {/* Center Section - Content */}
       <Box
         sx={{
           flex: { xs: "1 1 auto", md: "1 1 40%" },
           textAlign: { xs: "center", md: "left" },
           px: { xs: 2, md: 4 },
-          alignSelf: { xs: "center", md: "center" }, // Center align content for xs
+          alignSelf: { xs: "center", md: "center" },
         }}
       >
         <Typography
           variant="h3"
           sx={{
             fontWeight: 700,
-            fontSize: { xs: "1.8rem", md: "2.8rem" }, // Adjust font size for small screens
+            fontSize: { xs: "1.8rem", md: "2.8rem" },
             fontFamily: "'Georgia', serif",
             mb: 2,
           }}
@@ -59,7 +56,7 @@ const About = () => {
           sx={{
             fontStyle: "italic",
             fontWeight: 400,
-            fontSize: { xs: "1rem", md: "1.5rem" }, // Adjust font size for xs
+            fontSize: { xs: "1rem", md: "1.5rem" },
             fontFamily: "'Georgia', serif",
             mb: 3,
           }}
@@ -69,7 +66,7 @@ const About = () => {
         <Typography
           variant="body1"
           sx={{
-            fontSize: { xs: "0.9rem", md: "1.2rem" }, // Smaller font for xs
+            fontSize: { xs: "0.9rem", md: "1.2rem" },
             fontFamily: "'Georgia', serif",
             lineHeight: 1.6,
             mb: 4,
@@ -98,21 +95,19 @@ const About = () => {
           Meet the Team
         </Button>
       </Box>
-
-      {/* Right Section - Small Image */}
       <Box
         component="img"
         src={amaury2}
         alt="Amaury Gichon Working"
         sx={{
           flex: { xs: "1 1 auto", md: "1 1 20%" },
-          width: { xs: "100%", md: "auto" }, // Full width for xs
-          height: { xs: "200px", md: "400px" }, // Reduce height on small screens
+          width: { xs: "100%", md: "auto" },
+          height: { xs: "200px", md: "400px" },
           objectFit: "cover",
           borderRadius: "8px",
           boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
-          alignSelf: { xs: "center", md: "flex-end" }, // Center align for xs
-          mt: { xs: 2, md: 4 }, // Add margin at the top for md
+          alignSelf: { xs: "center", md: "flex-end" },
+          mt: { xs: 2, md: 4 },
         }}
       />
     </Box>
