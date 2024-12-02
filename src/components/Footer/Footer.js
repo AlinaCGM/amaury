@@ -7,7 +7,7 @@ const Footer = () => {
     <Box
       sx={{
         position: "relative",
-        height: "60vh",
+        height: "70vh",
         backgroundImage: `url(${backgroundImage})`,
         backgroundSize: "cover",
         backgroundPosition: "center",

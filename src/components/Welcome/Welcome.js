@@ -18,7 +18,7 @@ const Welcome = () => {
         backgroundColor: "#1b0b01",
         textAlign: "center",
         color: "#fff",
-        paddingBlock: "50px",
+        paddingBlock: "100px",
         "&::after": {
           content: '""',
           position: "absolute",

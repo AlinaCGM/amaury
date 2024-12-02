@@ -43,7 +43,7 @@ const Hero = () => {
             alignItems: "center",
             px: { xs: 3, md: 5 },
             pt: { xs: 3, md: 0 },
-            pb: { xs: 3, md: 5 },
+            pb: { xs: 3, md: "100px" },
 
             backgroundColor: "#EBE0DE",
             backgroundImage: `url(${contentBgImage})`,
