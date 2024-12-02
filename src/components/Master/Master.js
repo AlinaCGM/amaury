@@ -94,8 +94,8 @@ const Master = () => {
             src={image.src}
             alt={image.alt}
             sx={{
-              width: { xs: "45%", md: "18%" },
-              height: { xs: "200px", md: "400px" },
+              width: { xs: "45%", lg: "18%" },
+              height: { xs: "200px", md: "300px" },
               objectFit: "cover",
               borderRadius: "8px",
               boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",

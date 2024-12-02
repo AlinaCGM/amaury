@@ -23,12 +23,12 @@ const About = () => {
         alt="Amaury Gichon Working"
         sx={{
           flex: { xs: "1 1 auto", md: "1 1 40%" },
-          width: { xs: "100%", md: "auto" },
-          height: { xs: "600px", md: "600px" },
+          width: { xs: "70%", md: "auto" },
+          height: { xs: "auto", md: "600px" },
           objectFit: "cover",
           borderRadius: "8px",
           boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
-          alignSelf: { xs: "center", md: "flex-start" },
+          alignSelf: "flex-start",
           mb: { xs: 2, md: 4 },
         }}
       />
@@ -101,12 +101,12 @@ const About = () => {
         alt="Amaury Gichon Working"
         sx={{
           flex: { xs: "1 1 auto", md: "1 1 20%" },
-          width: "auto",
-          height: { xs: "600px", md: "400px" },
+          width: { xs: "70%", md: "auto" },
+          height: { xs: "auto", md: "600px" },
           objectFit: "cover",
           borderRadius: "8px",
           boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
-          alignSelf: { xs: "center", md: "flex-end" },
+          alignSelf: "flex-end",
           mt: { xs: 2, md: 4 },
         }}
       />
